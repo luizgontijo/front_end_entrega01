@@ -8,12 +8,12 @@ O objetivo é apresentar um site institucional com **design limpo, responsivo e 
 ## 📁 Estrutura do Projeto
 
 ```
-entrega01/
+front_end_entrega01/
 ├── index.html          # Página inicial com informações institucionais
 ├── cadastro.html       # Página de cadastro de novos voluntários/alunos
-├── style.css           # Folha de estilos principal do site
-├── masks.js            # Script JavaScript para aplicar máscaras automáticas
-└── assets/             # Imagens e ícones utilizados no site
+├── projetos.html       # Página de para acesso dos projetos sociais
+├── w3c_validation/     # Imagens com validação no w3c
+└── img/                # Imagens e ícones utilizados no site
 ```
 
 ---
@@ -52,18 +52,6 @@ entrega01/
    ```
 
 3. Abra o arquivo `index.html` diretamente no navegador.
-
----
-
-## 🧾 Máscaras de Formulário (`masks.js`)
-
-O arquivo `masks.js` aplica automaticamente as máscaras de **CPF**, **Telefone** e **CEP** conforme o usuário digita.
-
-### Exemplos:
-
-- CPF → `000.000.000-00`
-- Telefone → `(00) 00000-0000`
-- CEP → `00000-000`
 
 ---
 
