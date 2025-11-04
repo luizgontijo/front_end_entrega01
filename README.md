@@ -1,1 +1,81 @@
-# front_end_web
+# 🌟 Instituto Esperança — Projeto Front-End (Entrega 01)
+
+Este repositório contém a entrega inicial do projeto front-end do **Instituto Esperança**, desenvolvido em HTML5.  
+O objetivo é apresentar um site institucional com **design limpo, responsivo e acessível**, incluindo página inicial e formulário de cadastro com máscaras de entrada.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+entrega01/
+├── index.html          # Página inicial com informações institucionais
+├── cadastro.html       # Página de cadastro de novos voluntários/alunos
+├── style.css           # Folha de estilos principal do site
+├── masks.js            # Script JavaScript para aplicar máscaras automáticas
+└── assets/             # Imagens e ícones utilizados no site
+```
+
+---
+
+## 🧩 Funcionalidades
+
+- ✅ Layout responsivo (compatível com dispositivos móveis)
+- ✅ Máscaras automáticas para CPF, Telefone e CEP
+- ✅ HTML5 validado (W3C Validator)
+- ✅ Design com ícones e cores institucionais
+- ✅ Navegação simples e intuitiva
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+| Tecnologia       | Descrição                                  |
+| ---------------- | ------------------------------------------ |
+| **HTML5**        | Estrutura semântica do conteúdo            |
+| **Git & GitHub** | Controle de versão e hospedagem do projeto |
+
+---
+
+## ⚙️ Execução Local
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/luizgontijo/front_end_entrega01.git
+   ```
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd front_end_entrega01
+   ```
+
+3. Abra o arquivo `index.html` diretamente no navegador.
+
+---
+
+## 🧾 Máscaras de Formulário (`masks.js`)
+
+O arquivo `masks.js` aplica automaticamente as máscaras de **CPF**, **Telefone** e **CEP** conforme o usuário digita.
+
+### Exemplos:
+
+- CPF → `000.000.000-00`
+- Telefone → `(00) 00000-0000`
+- CEP → `00000-000`
+
+---
+
+## 💡 Validação
+
+Todos os arquivos HTML foram validados com o [W3C Markup Validation Service](https://validator.w3.org/).  
+Isso garante conformidade com os padrões web e melhora a acessibilidade do site.
+
+---
+
+## 👨‍💻 Autor
+
+**Luiz Fernando Gontijo**  
+📧 [GitHub](https://github.com/luizgontijo)  
+🚀 Projeto desenvolvido para fins acadêmicos — Entrega 01 do curso de Front-End.
